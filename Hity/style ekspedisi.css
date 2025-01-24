@@ -1,0 +1,41 @@
+img{
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+  }
+  div > table{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  tr{
+    
+    background-color:skyblue;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: solid;
+    color: black;
+  }
+  th{
+    border: 3px solid red;
+  }
+  .gambar{
+    width: 30px;
+    height: 20px;
+    align-items: center;
+  }
+  .lokasi:hover{
+    color: red;
+    
+  }
+  .lokasi{
+    color:green;
+  }
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  a:hover{
+    color: red;
+    text-decoration: none;
+  }
+  
