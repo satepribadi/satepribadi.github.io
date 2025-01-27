@@ -1,12 +1,112 @@
+
+body{
+background-color: blanchedalmond;
+}
+
+#headsection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  border-bottom: 2px solid black;
+}
+#headh1{
+  color: #00BFFF;
+  margin-left: 10px;
+  text-transform: uppercase;
+  
+}
+
+/* Hira Express */
+#hiraexpressdiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ;
+} 
+
+#hiraexpress{
+  text-align: center;
+  color: green;
+  margin-left: 10px;
+}
+/* Gemilang Asrimaju */
+#gemilangdiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ;
+}
+#gemilang{
+  text-align: center;
+  color: red;
+  margin-left: 10px;
+}
+
+/* Pirusa Jaya Transport*/
+#pirusadiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ;
+}
+#pirusa{
+  text-align: center;
+  color: blue;
+  margin-left: 10px;
+}
+
+/* Baron Perkasa Mandiri */
+#barondiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ;
+}
+#baron{
+  text-align: center;
+  color: #9966CC;
+  margin-left: 10px;
+}
+
+/* Panca Kobra Sakti*/
+#PancaKobradiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ;
+}
+#pancakobra{
+  text-align: center;
+  color: black;
+  margin-left: 10px;
+  }
+/* CH Transport */
+#chtransportdiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ;
+}
+#chtransport{
+  text-align: center;
+  color: red;
+  margin-left: 10px; 
+}
+
 img{
-    width: 70px;
+    width: 150px;
     height: 70px;
-    margin: 5px;
+    
+    
   }
   div > table{
-    display: flex;
-    flex-wrap: wrap;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;   
   }
+  
   tr{
     
     background-color:skyblue;
@@ -37,5 +137,9 @@ img{
   a:hover{
     color: red;
     text-decoration: none;
+  }
+  .countnumber{
+    width: 10px;
+    
   }
   
