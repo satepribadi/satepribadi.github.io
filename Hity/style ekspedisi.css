@@ -94,6 +94,94 @@ background-color: blanchedalmond;
   margin-left: 10px; 
 }
 
+/* Cipta Harapan Jaya */
+#ciptadiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+
+#cipta{
+  text-align: center;
+  color: red;
+  margin-left: 10px; 
+}
+
+/* Papandayan Cargo */
+#papandayandiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+
+#papandayan{
+  text-align: center;
+  color: #0047AB;
+  margin-left: 10px;
+}
+
+/* Ujb/Cetl */
+#cetldiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ;
+}
+
+#cetl{
+  text-align: center;
+  color: #8A2BE2;
+  margin-left: 10px; 
+}
+
+/* Sulawesi Jaya Raya/sjr*/
+#sjrdiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+
+#sjr{
+  text-align: center;
+  color: #00BFFF;
+  margin-left: 10px; 
+}
+
+/* Pirusa Jaya Transport */
+#pirusadiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+
+#pirusa{
+  text-align: center;
+  color: #00BFFF;
+  margin-left: 10px;  
+}
+
+/* sarana adi pratama*/
+#saranadiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+
+#sarana{
+  text-align: center;
+  color: #00BFFF;
+  margin-left: 10px; 
+}
+
+
+
+
+
 img{
     width: 150px;
     height: 70px;
