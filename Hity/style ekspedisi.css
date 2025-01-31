@@ -174,12 +174,293 @@ background-color: blanchedalmond;
 
 #sarana{
   text-align: center;
+  color: #FF0800;
+  margin-left: 10px; 
+}
+
+/*Tifa Trans Logistic*/
+#Tifadiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+#Tifa{
+  text-align: center;
+  color: #0047AB;
+  margin-left: 10px; 
+}
+
+/* Jaya Raya Baru*/
+#Jayadiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+#Jaya{
+  text-align: center;
+  color: #FDEE00;
+  margin-left: 10px;
+}
+
+/*Topan Logistic Logistic*/
+#Topandiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+#Topan{
+  text-align: center;
+  color: #00BFFF;
+  margin-left: 10px;  
+}
+
+/* Berdikari */
+#berdikaridiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+#berdikari{
+  text-align: center;
+  color: #00BFFF;
+  margin-left: 10px;  
+}
+
+/*Cipta Harapan Jaya*/
+#Ciptadiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ;  
+}
+#Cipta{
+  text-align: center;
+  color: #00BFFF;
+  margin-left: 10px;
+}
+/*Multi Express Transindo */
+#multidiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+#multi{
+  text-align: center;
   color: #00BFFF;
   margin-left: 10px; 
 }
 
+/*Wahana Jasa Karya Tirta*/
+#wahanadiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+#wahana{
+  text-align: center;
+  color: #FF0800;
+  margin-left: 10px; 
+}
 
+/* Artha Jaya Express*/
+#Arthadiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+#Artha{
+  text-align: center;
+  color: #00BFFF;
+  margin-left: 10px; 
+}
 
+/* garuda jaya sumber indah*/
+#garudadiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+#garuda{
+  text-align: center;
+  color: #FDEE00;
+  margin-left: 10px; 
+}
+
+/* Bintang Saudara */
+#Bintangdiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+#Bintang{
+  text-align: center;
+  color: #FDEE00;
+  margin-left: 10px; 
+}
+
+/* Bintang Mas*/
+#Bintangmasdiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+#Bintangimg{
+  rotate: 270deg;
+  width: 80px;
+  height: 100px;
+}
+#Bintangmas{
+  text-align: center;
+  color: #FDEE00;
+  margin-left: 10px;
+  
+}
+
+/*Lintas Abadi*/
+#lintasabadidiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+#lintasabadi{
+  text-align: center;
+  color:#00BFFF;
+  margin-left: 10px; 
+}
+
+/*Ksi Cargo Logistic*/
+#Ksidiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+#Ksi{
+  text-align: center;
+  color: #00BFFF;
+  margin-left: 10px; 
+}
+/*Jasa Prima Mustika*/
+#jasaprimadiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+#jasaprima{
+  text-align: center;
+  color: #FF0800;
+  margin-left: 10px; 
+}
+/*Semangat Transport*/
+#semangatdiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+#semangat{
+  text-align: center;
+  color: #FDEE00;
+  margin-left: 10px; 
+}
+
+/*awr cargo*/
+#awrdiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+#awr{
+  text-align: center;
+  color: #FF0800;
+  margin-left: 10px; 
+}
+/*SNG*/
+#sngdiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+#sng{
+  text-align: center;
+  color: #00BFFF;
+  margin-left: 10px; 
+}
+/*mks*/
+#mksdiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+#mks{
+  text-align: center;
+  color: #00BFFF;
+  margin-left: 10px; 
+}
+/*sumber urip*/
+#sumberuripdiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0px 0px 0px ; 
+}
+#sumberurip{
+  text-align: center;
+  color: #00BFFF;
+  margin-left: 10px; 
+}
+/*tesa Logistic*/
+#tesadiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px 0px 0px ;
+}
+#tesa{
+  text-align: center;
+  color: #00BFFF;
+  margin-left: 10px; 
+}
+/*setiawan bersama mitra*/
+#SBMdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px 0px 0px ;
+}
+#SBM{
+  text-align: center;
+  color: #00BFFF;
+  margin-left: 10px; 
+}
+/*Cipta Agung Abadi*/
+#ciptaagungdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px 0px 0px ;
+}
+#ciptaagung{
+  text-align: center;
+  color: #FDEE00;
+  margin-left: 10px; 
+  font-family: arial;
+}
 
 
 img{
