@@ -2,8 +2,10 @@
 <html lang="indonesia">
     <head>
         <title>list ekpedisi hity</title>
-        <link rel="stylesheet" href="style ekspedisi.css">
         <link rel="shorcut icon" type="iamge/icon" href="image/logo hity 2.png">
+        <link rel="stylesheet" href="style ekspedisi.css">
+       
+       
     </head>
     <body>
         <div id="headsection">
@@ -11,6 +13,11 @@
          <div><h1 id="headh1">List Ekspedisi Hity</h1></div>
         </div>
 
+        <div id="searchBar">
+            <input id="searchInput" type="text" placeholder="Cari Nama Customer atau Ekspedisi..." onkeypress="handleKeyPress(event)">
+            <button onclick="searchData()">Cari</button>
+            <button onclick="resetSearch()">Reset</button>
+        </div>
 
         <div>
             <div id="hiraexpressdiv">
@@ -1132,5 +1139,57 @@
                 </tr>
             </table>
         </div>
+
+        <script>
+            function searchData() {
+            const input = document.getElementById('searchInput').value.toLowerCase();
+            const tables = document.querySelectorAll('table');
+
+            tables.forEach(table => {
+                const rows = table.querySelectorAll('tr');
+                let tableHasMatch = false;
+
+                rows.forEach((row, index) => {
+                if (index === 0) return; // Skip header row
+                const cells = row.querySelectorAll('td');
+                const match = Array.from(cells).some(cell => cell.textContent.toLowerCase().includes(input));
+                row.style.display = match ? '' : 'none';
+                if (match) tableHasMatch = true;
+                });
+
+                // Show only the table with matching rows
+                table.style.display = tableHasMatch ? '' : 'none';
+            });
+
+            // Hide sections without matching tables
+            const sections = document.querySelectorAll('div[id$="div"]');
+            sections.forEach(section => {
+                const hasVisibleTable = Array.from(section.querySelectorAll('table')).some(table => table.style.display !== 'none');
+                section.style.display = hasVisibleTable ? '' : 'none';
+            });
+            }
+
+            function resetSearch() {
+            document.getElementById('searchInput').value = '';
+            const tables = document.querySelectorAll('table');
+
+            tables.forEach(table => {
+                const rows = table.querySelectorAll('tr');
+                rows.forEach(row => row.style.display = ''); // Show all rows
+                table.style.display = ''; // Show all tables
+            });
+
+            // Show all sections
+            const sections = document.querySelectorAll('div[id$="div"]');
+            sections.forEach(section => section.style.display = '');
+            }
+
+            function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                searchData();
+            }
+            }
+        </script>
+   
     </body>
 </html>

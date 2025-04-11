@@ -16,7 +16,28 @@ background-color: blanchedalmond;
   text-transform: uppercase;
   
 }
-
+#searchBar{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+}
+#searchInput{
+  width: 300px;
+  height: 40px;
+  border: 3px solid skyblue;
+  color: #FF0800;
+  border-radius: 5px;
+}
+button{
+  width: 100px;
+  height: 40px;
+  background-color: #FF0800;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-left: 10px;
+}
 /* Hira Express */
 #hiraexpressdiv{
   justify-content: center;
