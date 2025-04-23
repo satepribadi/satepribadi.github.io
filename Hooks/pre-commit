@@ -1,0 +1,6 @@
+#!/bin/sh
+echo "Mencegah commit jika ada file dengan TODO"
+if grep -r "TODO" .; then
+    echo "Commit dibatalkan karena ada TODO dalam kode"
+    exit 1
+fi
